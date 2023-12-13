@@ -1,0 +1,41 @@
+img{
+    position:sticky;
+    /*display: inline;*/
+    float:right;
+    /*right:0;*/
+    top:0;
+    width:50%;
+    height: 700px;
+}
+form {
+    margin: 20px;
+    padding: 5px;
+    background: gainsboro;
+    display: inline-block;
+    width:40%;
+  }
+  
+  form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding: 15px;
+  }
+  
+  form button {
+    background: rgb(250, 234, 230);
+    border: 2px solid black;
+    color: black;
+  }
+  form button:hover{
+    background-color: #3ea1c6; 
+    
+  }
+  .container{
+    width: 100%; 
+	  min-height: 35vh; 
+	  background: #fffaee; 
+    margin:2px;
+    height:100px;
+  }
